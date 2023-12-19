@@ -32,8 +32,8 @@ const CardSection = () => {
                 ))}
             </div>
             <div className='flex md:flex-row flex-col justify-center gap-14 lg:gap-20 mt-14 lg:mt-20 mb-14 lg:mb-20'>
-                {CardDataTwo.map((data) => (
-                    <div key={data.id} className='flex flex-col justify-between '>
+                {CardDataTwo.map((data, index) => (
+                  <div key={data.id} className={`flex flex-col justify-between ${index % 2 === 0 ? 'md:order-2' : ''}`}>
                         <div>
                             <div className='flex items-center justify-center'>
                                 <img className='w-full object-cover rounded-lg' src={data.img} alt="river img" />
