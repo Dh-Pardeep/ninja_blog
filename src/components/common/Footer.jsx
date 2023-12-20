@@ -14,7 +14,7 @@ const Footer = () => {
                     <li><button className='text-footer_light_gray font-Merriweather font-normal leading-[160%] text-xsm hover:text-black transition-all ease-linear duration-200'>Privacy Policy</button></li>
                     <li><button className='text-footer_light_gray font-Merriweather font-normal leading-[160%] text-xsm hover:text-black transition-all ease-linear duration-200'>Contact</button></li>
                 </ul>
-                <p className='text-center pb-9 pt-[26px] text-copyright_color text-xsm font-bold leading-[160%]'>Copyright © {currentYear} Food Ninja Blog. All Rights Reserved.</p>
+                <p className='text-center pb-9 pt-[26px] text-copyright_color text-xsm font-bold leading-[160%] font-Merriweather'>Copyright © {currentYear} Food Ninja Blog. All Rights Reserved.</p>
             </div>
         </div>
     );
