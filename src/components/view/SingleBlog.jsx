@@ -2,7 +2,7 @@ import React from 'react'
 import HeaderTwo from '../common/HeaderTwo'
 import BlogFullPage from '../BlogFullPage'
 import KeepReading from '../KeepReading'
-import SubscribeTwo from '../SubscribeTwo'
+import Subscribe from '../Subscribe'
 import Footer from '../common/Footer'
 import BackToTop from '../common/BackToTop'
 const SingleBlog = () => {
@@ -11,7 +11,7 @@ const SingleBlog = () => {
             <HeaderTwo />
             <BlogFullPage />
             <KeepReading />
-            <SubscribeTwo />
+            <Subscribe />
             <Footer />
             <BackToTop />
         </>
