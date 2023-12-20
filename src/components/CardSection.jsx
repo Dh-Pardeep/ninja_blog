@@ -23,7 +23,7 @@ const CardSection = () => {
                                     <h2 className='text-gray_text font-Merriweather leading-[160%] text-[12px] sm:text-xsm font-normal'>{data.timeing}</h2>
                                 </div>
                                 <div className='mb-5 '>
-                                    <p className='text-para_gray font-Roboto text-sm  leading-[160%] font-normal md:max-w-[510px] '>{data.paragraph}</p>
+                                    <p className='text-para_gray font-Roboto text-sm  leading-[160%] font-normal md:max-w-[510px] md:h-[153px] lg:h-[105px]'>{data.paragraph}</p>
                                 </div>
                             </div>
                             <div className=' flex items-center'>
@@ -52,10 +52,10 @@ const CardSection = () => {
                                     <h2 className='text-gray_text font-Merriweather leading-[160%] text-[12px] sm:text-xsm font-normal'>{data.timeing}</h2>
                                 </div>
                                 <div className='mb-5 '>
-                                    <p className='text-para_gray font-Roboto text-sm  leading-[160%] font-normal md:max-w-[510px] '>{data.paragraph}</p>
+                                    <p className='text-para_gray font-Roboto text-sm  leading-[160%] font-normal md:max-w-[510px] md:h-[153px] lg:h-[105px]'>{data.paragraph}</p>
                                 </div>
                             </div>
-                            <div className=' flex items-center'>
+                            <div className=' flex items-center '>
                                 <img className='w-11 h-11 object-cover rounded-full hover:scale-105 transition-all ease-linear duration-200' src={data.smallImg} alt="George Costanza" />
                                 <h2 className='font-bold leading-[160%] text-xsm font-Merriweather text-black ms-[14px]'>{data.ImgName}</h2>
                             </div>
