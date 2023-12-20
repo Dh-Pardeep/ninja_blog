@@ -4,7 +4,7 @@ import Footer from '../common/Footer'
 import HeroSection from '../HeroSection'
 import CardSection from '../CardSection'
 import Subscribe from '../Subscribe'
-
+import BackToTop from '../common/BackToTop'
 const MainPage = () => {
     return (
         <>
@@ -13,6 +13,7 @@ const MainPage = () => {
             <CardSection />
             <Subscribe />
             <Footer />
+            <BackToTop/>
         </>
     )
 }

@@ -6,9 +6,9 @@ import George_Costanza from '../assets/webp/George_Costanza.webp'
 const KeepReading = () => {
     return (
         <div className='container xl:w-[1100px] px-3 sm:px-5 xl:px-0 mx-auto'>
-            <div className='max-w-[800px] w-full mx-auto mt-12'>
+            <div className='max-w-[800px] w-full mx-auto mt-[30px] md:mt-12'>
                 <h2 className='table_color font-Merriweather font-bold text-xxl leading-[160%] mb-[30px]'>Keep reading</h2>
-                <div className='flex flex-col sm:flex-row gap-[34px]'>
+                <div className='flex flex-col sm:flex-row gap-[30px] md:gap-[34px]'>
                     <div className='w-full sm:w-[75%] lg:w-[60%] xl:w-[55%]'>
                         <img className='w-full' src={Kitchinone} alt="Kitchinone" />
                     </div>
@@ -17,7 +17,7 @@ const KeepReading = () => {
                         <p className='mt-2 text-table_color_para font-Roboto text-sm lg:text-xmd font-normal leading-[160%]'>Et vitae, mollis euismod lobortis blandit amet sed amet. Amet ut amet nisl tortor arcu non id nulla mauris neque nisl magna.</p>
                     </div>
                 </div>
-                <div className='flex gap-[34px] mt-[30px] mb-12 flex-col sm:flex-row'>
+                <div className='flex gap-[34px] mt-12 sm:mt-[30px] mb-12 flex-col sm:flex-row'>
                     <div className='w-full sm:w-[75%] lg:w-[60%] xl:w-[55%]'>
                         <img className='w-full' src={KitchinoneTwo} alt="Kitchinone" />
                     </div>

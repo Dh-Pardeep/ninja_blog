@@ -4,6 +4,7 @@ import BlogFullPage from '../BlogFullPage'
 import KeepReading from '../KeepReading'
 import SubscribeTwo from '../SubscribeTwo'
 import Footer from '../common/Footer'
+import BackToTop from '../common/BackToTop'
 const SingleBlog = () => {
     return (
         <>
@@ -12,6 +13,7 @@ const SingleBlog = () => {
             <KeepReading />
             <SubscribeTwo />
             <Footer />
+            <BackToTop />
         </>
     )
 }

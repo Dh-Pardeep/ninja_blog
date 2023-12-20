@@ -1,12 +1,12 @@
 import './App.css';
-import MainPage from './components/view/MainPage';
-import SingleBlog from './components/view/SingleBlog';
+import LoaderHome from './components/common/LoaderHome';
+import Homepage from './components/view/Homepage';
 
 function App() {
   return (
     <>
-      <MainPage />
-      <SingleBlog/>
+    <LoaderHome/>
+      <Homepage />
     </>
   );
 }
