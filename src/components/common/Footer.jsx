@@ -7,7 +7,7 @@ const Footer = () => {
     setCurrentYear(new Date().getFullYear());
   }, []); 
     return (
-        <div className='bg-medium_gray_two mt-2'>
+        <div className='bg-medium_gray_two '>
             <div className='container xl:w-[1100px] px-3 sm:px-5 xl:px-0 mx-auto'>
                 <ul className='flex justify-center items-center pt-9 gap-6'>
                     <li><button className='text-footer_light_gray font-Merriweather font-normal leading-[160%] text-xsm hover:text-black transition-all ease-linear duration-200'>About</button></li>
