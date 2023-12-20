@@ -8,15 +8,18 @@ const SubscribeTwo = () => {
                     <h2 className='text-white text-center font-Merriweather text-md lg:text-lg font-black leading-[160%] md:max-w-[182px] mx-auto'>Subscribe To Our Newsletter</h2>
                     <p className='text-para_light_gray text-center font-Roboto text-xmd font-medium leading-[160%] pt-3 pb-4'>Get weekly food news, articles, and videos delivered to your inbox.</p>
                     <div className='mx-4'>
-                        <div className='sm:flex justify-center lg:justify-start lg:items-start  lg:flex-col items-center' >
-                            <div className='text-center  mb-6 sm:mb-0 lg:mb-6'>
-                                <input required type="email" placeholder='Email' className='placeholder:text-light_gray placeholder:font-Roboto placeholder:text-xmd placeholder:font-medium placeholder:leading-normal bg-white rounded w-full sm:w-[288px] lg:m-full max-w-[288px] ps-4 py-3' />
+                        <form>
+                            <div className='sm:flex justify-center lg:justify-start lg:items-start lg:flex-col items-center'>
+                                <div className='text-center mb-6 sm:mb-0 lg:mb-6'>
+                                    <input required type="email" placeholder='Email' className='placeholder:text-light_gray placeholder:font-Roboto placeholder:text-xmd placeholder:font-medium placeholder:leading-normal bg-white rounded w-full sm:w-[288px] lg:m-full max-w-[288px] ps-4 py-3 outline-none' />
+                                </div>
+                                <div className='text-center md:text-start sm:ps-5 lg:ps-0'>
+                                    <button className='text-white font-Roboto text-xmd font-medium leading-[160%] bg-heading rounded py-[9.6px] px-4 transition-all duration-200 ease-in-out hover:bg-white hover:text-light_blue hover:shadow-[0px_2px_6px_0px] hover:shadow-black'>Sign Up</button>
+                                </div>
                             </div>
-                            <div className='text-center md:text-start sm:ps-5 lg:ps-0 '>
-                                <button className='text-white font-Roboto  text-xmd font-medium  leading-[160%] bg-heading rounded py-[9.6px] px-4 '>Sign Up</button>
-                            </div>
-                        </div>
+                        </form>
                     </div>
+
                 </div>
                 <div className='flex flex-col sm:flex-row justify-between gap-10 xl:gap-20'>
                     <div>

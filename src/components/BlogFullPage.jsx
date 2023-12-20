@@ -6,14 +6,15 @@ const BlogFullPage = () => {
         <div className='container xl:w-[1100px] px-3 sm:px-5 xl:px-0 mx-auto'>
             <div className='max-w-[800px] w-full mx-auto'>
                 <div className='mt-16 lg:mt-24 '>
-                    <button className='  px-4 pt-1 pb-[3px] bg-light_blue text-opacity_white font-Roboto text-xsm font-semibold leading-normal rounded '>Food Theory</button>
+                    <button className='  px-4 pt-1 pb-[3px] bg-light_blue text-opacity_white font-Roboto text-xsm font-semibold leading-normal rounded transition-all duration-200 ease-in-out hover:bg-white hover:text-light_blue hover:shadow-[0px_2px_6px_0px] hover:shadow-light_blue'>Food Theory</button>
                     <h2 className='text-black text-[34px] md:text-[40px] lg:text-2xl font-Merriweather leading-normal font-bold mt-4'>What I Learned About Life and Food Backpacking Around Greece</h2>
-                    <p className='mb-5 text-gray_text font-Merriweather text-xsm font-normal leading-[160%]'>Aug 1, 2021 • 7 min read</p>
-                    <div className='mb-5'>
-                        <img className='w-full rounded-md' src={Full_blog_img} alt="Full_blog_img" />
+                    <p className='mb-5 text-gray_text font-Merriweather text-[12px] sm:text-xsm font-normal leading-[160%]'>Aug 1, 2021 • 7 min read</p>
+                    <div className='mb-5 rounded-md overflow-hidden shadow-[0px_5px_10px_0px] shadow-[#00000080] '>
+                        <img className='w-full rounded-md hover:scale-105 transition-all ease-linear duration-200 ' src={Full_blog_img} alt="Full_blog_img" />
                     </div>
                     <div className=' flex items-center'>
-                        <img className='w-11 h-11 object-cover rounded-full' src={George_Costanza} alt="George Costanza" />
+                        <img className='w-11 h-11 object-cover rounded-full hover:scale-105 transition-all ease-linear duration-200 
+                        ' src={George_Costanza} alt="George Costanza" />
                         <h2 className='font-bold leading-[160%] text-xsm font-Merriweather text-black ms-[14px]'>George Costanza</h2>
                     </div>
                     <p className='text-para_gray font-Roboto text-md md:text-[23px] lg:text-xl font-medium leading-[160%] mt-5 md:mt-[30px]'>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ultrices dui diam arcu pharetra at laoreet pellentesque. Imperdiet sit ut ornare nulla risus id fames nascetur urna. Eros in neque tincidunt.</p>

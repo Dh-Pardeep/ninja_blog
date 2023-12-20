@@ -9,8 +9,8 @@ const KeepReading = () => {
             <div className='max-w-[800px] w-full mx-auto mt-[30px] md:mt-12'>
                 <h2 className='table_color font-Merriweather font-bold text-xxl leading-[160%] mb-[30px]'>Keep reading</h2>
                 <div className='flex flex-col sm:flex-row gap-[30px] md:gap-[34px]'>
-                    <div className='w-full sm:w-[75%] lg:w-[60%] xl:w-[55%]'>
-                        <img className='w-full' src={Kitchinone} alt="Kitchinone" />
+                    <div className='w-full sm:w-[75%] lg:w-[60%] xl:w-[55%] shadow-[0px_5px_10px_0px] overflow-hidden shadow-[#00000080] rounded-md'>
+                        <img className='w-full hover:scale-105 transition-all ease-linear duration-200 rounded-md' src={Kitchinone} alt="Kitchinone" />
                     </div>
                     <div>
                         <h2 className='text-table_color font-Merriweather text-md lg:text-lg font-bold leading-[160%]'>Why you don’t need more than 3 pieces of clothing</h2>
@@ -18,8 +18,8 @@ const KeepReading = () => {
                     </div>
                 </div>
                 <div className='flex gap-[34px] mt-12 sm:mt-[30px] mb-12 flex-col sm:flex-row'>
-                    <div className='w-full sm:w-[75%] lg:w-[60%] xl:w-[55%]'>
-                        <img className='w-full' src={KitchinoneTwo} alt="Kitchinone" />
+                    <div className='w-full sm:w-[75%] lg:w-[60%] xl:w-[55%] shadow-[0px_5px_10px_0px] overflow-hidden shadow-[#00000080] rounded-md'>
+                        <img className='w-full hover:scale-105 transition-all ease-linear duration-200 rounded-md' src={KitchinoneTwo} alt="Kitchinone" />
                     </div>
                     <div>
                         <h2 className='text-table_color font-Merriweather text-md lg:text-lg font-bold leading-[160%]'>Why you should cook with your family together everyday</h2>
