@@ -19,10 +19,10 @@ const CardSection = () => {
                                 <h2 className='text-md text-start lg:text-lg font-bold text-black font-Merriweather leading-[140%]'>{data.heading}</h2>
                             </div>
                             <div className='mb-3'>
-                                <h2 className='text-gray_text font-Merriweather leading-[160%] text-[12px] sm:text-xsm font-normal'>{data.timeing}</h2>
+                                <h2 className='text-gray_text font-Merriweather leading-[160%] text-[12px] sm:text-xsm '>{data.timeing}</h2>
                             </div>
                             <div className='mb-5 '>
-                                <p className='text-para_gray font-Roboto text-sm  leading-[160%] font-normal md:max-w-[510px] md:h-[153px] lg:h-[105px]'>{data.paragraph}</p>
+                                <p className='text-para_gray font-Roboto text-sm  leading-[160%]  md:max-w-[510px] md:h-[153px] lg:h-[105px]'>{data.paragraph}</p>
                             </div>
                             <div className=' flex items-center'>
                                 <img className='w-11 h-11 object-cover rounded-full hover:scale-105 transition-all ease-linear duration-200' src={data.smallImg} alt="George Costanza" />
@@ -46,10 +46,10 @@ const CardSection = () => {
                                 <h2 className='text-md lg:text-lg font-bold text-black font-Merriweather leading-[140%]'>{data.heading}</h2>
                             </div>
                             <div className='mb-3'>
-                                <h2 className='text-gray_text font-Merriweather leading-[160%] text-[12px] sm:text-xsm font-normal'>{data.timeing}</h2>
+                                <h2 className='text-gray_text font-Merriweather leading-[160%] text-[12px] sm:text-xsm '>{data.timeing}</h2>
                             </div>
                             <div className='mb-5 '>
-                                <p className='text-para_gray font-Roboto text-sm  leading-[160%] font-normal md:max-w-[510px] md:h-[153px] lg:h-[105px]'>{data.paragraph}</p>
+                                <p className='text-para_gray font-Roboto text-sm  leading-[160%]  md:max-w-[510px] md:h-[153px] lg:h-[105px]'>{data.paragraph}</p>
                             </div>
                         </div>
                         <div className=' flex items-center '>

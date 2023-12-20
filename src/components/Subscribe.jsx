@@ -24,15 +24,15 @@ const SubscribeTwo = () => {
                 <div className='flex flex-col sm:flex-row justify-between gap-10 xl:gap-20'>
                     <div>
                         <h2 className='text-black font-Roboto font-medium leading-[160%] text-xsm'>POPULAR POSTS</h2>
-                        <p className='mt-7 text-black font-Merriweather font-normal leading-[160%] text-xsm md:max-w-[320px]'>How To Have Your Cake and Eat It Too: The Way of The Chicken Man</p>
-                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather font-normal leading-[160%] text-xsm'>My Grandma’s 30-year-old Recipe</p>
-                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather font-normal leading-[160%] text-xsm'>What I learned about cooking from Ratatoulie</p>
+                        <p className='mt-7 text-black font-Merriweather leading-[160%] text-xsm md:max-w-[320px]'>How To Have Your Cake and Eat It Too: The Way of The Chicken Man</p>
+                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm'>My Grandma’s 30-year-old Recipe</p>
+                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm'>What I learned about cooking from Ratatoulie</p>
                     </div>
                     <div>
                         <h2 className='text-black font-Roboto font-medium leading-[160%] text-xsm'>Recent Posts</h2>
-                        <p className='mt-7 text-black font-Merriweather font-normal leading-[160%] text-xsm md:max-w-[320px]'>How To Have Your Cake and Eat It Too: The Way of The Chicken Man</p>
-                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather font-normal leading-[160%] text-xsm'>My Grandma’s 30-year-old Recipe</p>
-                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather font-normal leading-[160%] text-xsm'>What I learned about cooking from Ratatoulie</p>
+                        <p className='mt-7 text-black font-Merriweather leading-[160%] text-xsm md:max-w-[320px]'>How To Have Your Cake and Eat It Too: The Way of The Chicken Man</p>
+                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm'>My Grandma’s 30-year-old Recipe</p>
+                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm'>What I learned about cooking from Ratatoulie</p>
                     </div>
                 </div>
             </div>
