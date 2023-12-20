@@ -2,7 +2,7 @@ import React from 'react'
 
 const SubscribeTwo = () => {
     return (
-        <div className='container xl:w-[1180px] px-3 sm:px-5 xl:px-0 mx-auto xl:ms-auto xl:me-[100px]'>
+        <div className='container xl:w-[1180px] px-3 sm:px-5 xl:px-0 mx-auto xl:ms-auto xl:me-[100px] mx_auto'>
             <div className='flex flex-col lg:flex-row gap-10  xl:gap-20 mb-12 lg:mb-36 mt-12 lg:mt-[100px] '>
                 <div className='rounded-md bg-light_blue w-full  lg:w-[36%] xl:w-4/12 py-9 px-7'>
                     <h2 className='text-white text-center font-Merriweather text-md lg:text-lg font-black leading-[160%] md:max-w-[182px] mx-auto'>Subscribe To Our Newsletter</h2>
@@ -10,8 +10,8 @@ const SubscribeTwo = () => {
                     <div className='mx-4'>
                         <form>
                             <div className='sm:flex justify-center lg:justify-start lg:items-start lg:flex-col items-center'>
-                                <div className='text-center mb-6 sm:mb-0 lg:mb-6'>
-                                    <input required type="email" placeholder='Email' className='placeholder:text-light_gray placeholder:font-Roboto placeholder:text-xmd placeholder:font-medium placeholder:leading-normal bg-white rounded w-full sm:w-[288px] lg:m-full max-w-[288px] ps-4 py-3 outline-none' />
+                                <div className='text-center mb-6 sm:mb-0 lg:mb-6  lg:w-full'>
+                                    <input required type="email" placeholder='Email' className='placeholder:text-light_gray placeholder:font-Roboto placeholder:text-xmd placeholder:font-medium placeholder:leading-normal bg-white rounded w-full  sm:w-[288px] lg:w-full max-w-[350px] lg:max-w-[305px] ps-4 py-3 outline-none' />
                                 </div>
                                 <div className='text-center md:text-start sm:ps-5 lg:ps-0'>
                                     <button className='text-white font-Roboto text-xmd font-medium leading-[160%] bg-heading rounded py-[9.6px] px-4 transition-all duration-200 ease-in-out hover:bg-white hover:text-light_blue hover:shadow-[0px_2px_6px_0px] hover:shadow-black'>Sign Up</button>

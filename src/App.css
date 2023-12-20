@@ -40,3 +40,9 @@
         cursor: pointer;
     }
 }
+@media (min-width:1441px) {
+    .mx_auto{
+        margin-left: auto;
+        margin-right: auto;
+    }
+}
