@@ -7,7 +7,7 @@ const CardSection = () => {
         <div className='container xl:w-[1100px] px-3 sm:px-5 xl:px-0 mx-auto'>
             <div className='flex md:flex-row flex-col justify-center gap-12 md:gap-16 lg:gap-20 mt-12 md:mt-16 lg:mt-20 mb-12 md:mb-16 lg:mb-20'>
                 {CardData.map((data) => (
-                    <Link to="/singleblog" key={data.id}>
+                    <Link to="/fullblogPage" key={data.id}>
                         <div className='flex flex-col justify-between full_card'>
                             <div className='flex items-center justify-center overflow-hidden rounded-lg min-h-[175px] md:h-[182px] md:w-[332px] lg:h-[250px] lg:w-[450px] xl:h-[280px] xl:w-[510px]'>
                                 <img className='w-full object-cover rounded-lg  hover:scale-105 transition-all ease-linear duration-200 min-h-[175px] md:h-[182px] md:w-[332px] lg:h-[250px] lg:w-[450px] xl:h-[280px] xl:w-[510px]' src={data.img} alt="river img" />
@@ -34,7 +34,7 @@ const CardSection = () => {
             </div>
             <div className='flex md:flex-row-reverse flex-col  justify-center gap-12 md:gap-16 lg:gap-20 mt-12 md:mt-16 lg:mt-20 mb-12 md:mb-16 lg:mb-20'>
                 {CardDataTwo.map((data) => (
-                    <Link to="/singleblog" key={data.id}>
+                    <Link to="/fullblogPage" key={data.id}>
                         <div className="flex flex-col justify-between ">
                             <div className='flex items-center justify-center rounded-lg overflow-hidden min-h-[175px] md:h-[182px] md:w-[332px] lg:h-[250px] lg:w-[450px] xl:h-[280px] xl:w-[510px]'>
                                 <img className='w-full object-cover rounded-lg hover:scale-105 transition-all ease-linear  duration-200' src={data.img} alt="river img" />
