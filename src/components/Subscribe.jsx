@@ -3,7 +3,7 @@ import React from 'react'
 const SubscribeTwo = () => {
     return (
         <div className='container xl:w-[1180px] px-3 sm:px-5 xl:px-0 mx-auto xl:ms-auto xl:me-[100px] mx_auto'>
-            <div className='flex flex-col lg:flex-row gap-10  xl:gap-20 mb-12  mt-12 lg:mt-[104px] '>
+            <div className='flex flex-col lg:flex-row gap-10  xl:gap-20 mb-10  mt-12 lg:mt-[104px] '>
                 <div className='rounded-md bg-light_blue w-full  lg:w-[36%] xl:w-4/12 py-9 px-5 xl:px-7'>
                     <h2 className='text-white text-center font-Merriweather text-md lg:text-lg font-black leading-[160%] md:max-w-[182px] mx-auto'>Subscribe To Our Newsletter</h2>
                     <p className='text-para_light_gray text-center font-Roboto text-sm md:text-xmd font-medium leading-[160%] pt-3 pb-4'>Get weekly food news, articles, and videos delivered to your inbox.</p>
