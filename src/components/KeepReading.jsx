@@ -3,7 +3,7 @@ import Kitchinone from '../assets/webp/kitchen_pic_two.webp'
 import KitchinoneTwo from '../assets/webp/kitchen_pic.webp'
 import George_Costanza from '../assets/webp/George_Costanza.webp'
 
-const KeepReading = () => {     
+const KeepReading = () => {
     return (
         <div className='container xl:w-[1100px] px-3 sm:px-5 xl:px-0 mx-auto'>
             <div className='max-w-[800px] w-full mx-auto mt-[30px] md:mt-12'>

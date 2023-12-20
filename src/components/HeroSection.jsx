@@ -7,7 +7,7 @@ const HeroSection = () => {
             <p className='text-center text-light_gray font-Roboto text-sm sm:text-xmd md:text-md  leading-normal mt-2 '>A blog about food, experiences, and recipes.</p>
             <div className='border border-border_color bg-white max-w-[430px] pt-3 md:pt-[17px] pb-[11px] md:pb-[16px] px-5 md:px-7 rounded-md mx-auto mt-8 sm:mt-10 md:mt-12 lg:mt-14 flex justify-between items-center'>
                 <input type="search" placeholder='Search for articles' className='placeholder:text-medium_gray placeholder:font-Merriweather placeholder:md:text-xmd placeholder:text-sm placeholder:leading-normal  outline-none border-none w-4/5' />
-             <SearchIcon/>
+                <SearchIcon />
             </div>
         </div>
     )

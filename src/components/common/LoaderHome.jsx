@@ -22,7 +22,7 @@ function LoaderHome() {
         >
           <div className="flex justify-center">
             <div className=" relative flex justify-center items-center">
-            <h2 className='text-center text-heading font-Merriweather text-[30px] sm:text-[36px] md:text-[42px] lg:text-3xl font-black leading-normal animate__animated  animate__backInDown animate__slow '>The Food Ninja Blog</h2>
+              <h2 className='text-center text-heading font-Merriweather text-[30px] sm:text-[36px] md:text-[42px] lg:text-3xl font-black leading-normal animate__animated  animate__backInDown animate__slow '>The Food Ninja Blog</h2>
             </div>
           </div>
         </div>
