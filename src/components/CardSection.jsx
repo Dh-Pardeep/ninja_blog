@@ -11,7 +11,7 @@ const CardSection = () => {
                         <div key={data.id} className='flex flex-col justify-between full_card'>
                             <div>
                                 <div className='flex items-center justify-center overflow-hidden rounded-lg'>
-                                    <img className='w-full object-cover rounded-lg  hover:scale-105 transition-all ease-linear duration-200' src={data.img} alt="river img" />
+                                    <img className='w-full object-cover rounded-lg  hover:scale-105 transition-all ease-linear duration-200 min-h-[175px]' src={data.img} alt="river img" />
                                 </div>
                                 <div className='mt-5 mb-2'>
                                     <button className='  px-4 pt-1 pb-[3px] bg-light_blue text-opacity_white font-Roboto text-xsm font-semibold leading-normal rounded transition-all duration-200 ease-in-out hover:bg-white hover:text-light_blue hover:shadow-[0px_2px_6px_0px] hover:shadow-light_blue'>{data.button}</button>
@@ -40,7 +40,7 @@ const CardSection = () => {
                         <div key={data.id} className={`flex flex-col justify-between ${index % 2 === 0 ? 'md:order-2' : ''}`}>
                             <div>
                                 <div className='flex items-center justify-center rounded-lg overflow-hidden'>
-                                    <img className='w-full object-cover rounded-lg hover:scale-105 transition-all ease-linear duration-200' src={data.img} alt="river img" />
+                                    <img className='w-full object-cover rounded-lg hover:scale-105 transition-all ease-linear min-h-[175px] duration-200' src={data.img} alt="river img" />
                                 </div>
                                 <div className='mt-5 mb-2'>
                                     <button className='  px-4 pt-1 pb-[3px] bg-light_blue text-opacity_white font-Roboto text-xsm font-semibold leading-normal rounded transition-all duration-200 ease-in-out hover:bg-white hover:text-light_blue hover:shadow-[0px_2px_6px_0px] hover:shadow-light_blue'>{data.button}</button>
