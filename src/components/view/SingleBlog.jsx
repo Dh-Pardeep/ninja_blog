@@ -1,5 +1,5 @@
 import React from 'react'
-import HeaderTwo from '../common/HeaderTwo'
+import Header from '../common/Header'
 import BlogFullPage from '../BlogFullPage'
 import KeepReading from '../KeepReading'
 import Subscribe from '../Subscribe'
@@ -8,7 +8,9 @@ import BackToTop from '../common/BackToTop'
 const SingleBlog = () => {
     return (
         <>
-            <HeaderTwo />
+            <div className='pt-9'>
+                <Header />
+            </div>
             <BlogFullPage />
             <KeepReading />
             <Subscribe />

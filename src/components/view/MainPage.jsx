@@ -8,12 +8,14 @@ import BackToTop from '../common/BackToTop'
 const MainPage = () => {
     return (
         <>
-            <Header />
+            <div className='pt-4 sm:pt-8 md:pt-12 lg:pt-16 pb-14 sm:pb-16 md:pb-20 lg:pb-24'>
+                <Header />
+            </div>
             <HeroSection />
             <CardSection />
             <Subscribe />
             <Footer />
-            <BackToTop/>
+            <BackToTop />
         </>
     )
 }
