@@ -31,7 +31,7 @@ const Header = () => {
                             <li>
                                 <button
                                     onClick={() => setShowNavbar(true)}
-                                    className='font-Roboto text-light_gray text-[5vw] sm:text-[3vw] md:text-xmd leading-normal   relative after:content-[""] after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-light_gray after:absolute after:bottom-[-2px] hover:after:w-full hover:after:left-0 after:left-[50%]   '
+                                    className='font-Roboto text-light_gray text-[5vw] font-bold sm:text-[3vw] md:text-xmd leading-normal   relative after:content-[""] after:w-0 after:h-[3px] after:transition-all transition-all  after:ease-in-out ease-in-out after:duration-300 duration-300 after:bg-light_gray after:absolute after:bottom-[-2px] hover:after:w-full hover:after:left-0 after:left-[50%]   '
                                 >
                                     Blog
                                 </button>

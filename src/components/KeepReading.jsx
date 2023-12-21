@@ -2,6 +2,7 @@ import React from 'react'
 import Kitchinone from '../assets/webp/kitchen_pic_two.webp'
 import KitchinoneTwo from '../assets/webp/kitchen_pic.webp'
 import George_Costanza from '../assets/webp/George_Costanza.webp'
+import { Link } from 'react-router-dom'
 
 const KeepReading = () => {
     return (
@@ -13,7 +14,7 @@ const KeepReading = () => {
                         <img className='w-full hover:scale-105 transition-all ease-linear duration-200 rounded-md min-h-[150px]' src={Kitchinone} alt="Kitchinone" />
                     </div>
                     <div>
-                        <h2 className='text-table_color font-Merriweather text-md lg:text-lg font-bold leading-[160%]'>Why you don’t need more than 3 pieces of clothing</h2>
+                        <Link to='#' className='text-table_color font-Merriweather text-md lg:text-lg font-bold leading-[160%] hover:!underline inline-block transition-all ease-linear duration-300'>Why you don’t need more than 3 pieces of clothing</Link>
                         <p className='mt-2 text-table_color_para font-Roboto text-sm lg:text-xmd  leading-[160%]'>Et vitae, mollis euismod lobortis blandit amet sed amet. Amet ut amet nisl tortor arcu non id nulla mauris neque nisl magna.</p>
                     </div>
                 </div>
@@ -22,7 +23,7 @@ const KeepReading = () => {
                         <img className='w-full hover:scale-105 transition-all ease-linear duration-200 rounded-md min-h-[150px]' src={KitchinoneTwo} alt="Kitchinone" />
                     </div>
                     <div>
-                        <h2 className='text-table_color font-Merriweather text-md lg:text-lg font-bold leading-[160%]'>Why you should cook with your family together everyday</h2>
+                        <Link to='#' className='text-table_color font-Merriweather text-md lg:text-lg font-bold leading-[160%] hover:!underline inline-block transition-all ease-linear duration-200'>Why you should cook with your family together everyday</Link>
                         <p className='mt-2 text-table_color_para font-Roboto text-sm lg:text-xmd  leading-[160%]'>Rutrum aliquet eros semper nunc. In adipiscing augue sagittis, fermentum donec nunc lacinia. Risus in egestas in orci quam.</p>
                     </div>
                 </div>

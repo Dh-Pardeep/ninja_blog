@@ -1,4 +1,5 @@
 import React from 'react'
+import { Link } from 'react-router-dom'
 
 const SubscribeTwo = () => {
     return (
@@ -19,20 +20,19 @@ const SubscribeTwo = () => {
                             </div>
                         </form>
                     </div>
-
                 </div>
-                <div className='flex flex-col sm:flex-row justify-between gap-10 xl:gap-20'>
-                    <div>
+                <div className='flex flex-col sm:flex-row justify-between gap-10 xl:gap-20  '>
+                    <div className='max-w-[320px] w-full'>
                         <h2 className='text-black font-Roboto font-medium leading-[160%] text-xsm'>POPULAR POSTS</h2>
-                        <p className='mt-7 text-black font-Merriweather leading-[160%] text-xsm md:max-w-[320px]'>How To Have Your Cake and Eat It Too: The Way of The Chicken Man</p>
-                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm'>My Grandma’s 30-year-old Recipe</p>
-                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm'>What I learned about cooking from Ratatoulie</p>
+                        <Link to="#" className='mt-7 text-black font-Merriweather leading-[160%] text-xsm md:max-w-[320px] inline-block hover:!underline'>How To Have Your Cake and Eat It Too: The Way of The Chicken Man</Link>
+                        <Link className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm hover:!underline inline-block'>My Grandma’s 30-year-old Recipe</Link>
+                        <Link className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm hover:!underline inline-block'>What I learned about cooking from Ratatoulie</Link>
                     </div>
-                    <div>
+                    <div className='max-w-[320px] w-full'>
                         <h2 className='text-black font-Roboto font-medium leading-[160%] text-xsm'>Recent Posts</h2>
-                        <p className='mt-7 text-black font-Merriweather leading-[160%] text-xsm md:max-w-[320px]'>How To Have Your Cake and Eat It Too: The Way of The Chicken Man</p>
-                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm'>My Grandma’s 30-year-old Recipe</p>
-                        <p className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm'>What I learned about cooking from Ratatoulie</p>
+                        <Link className='mt-7 text-black font-Merriweather leading-[160%] text-xsm md:max-w-[320px] hover:!underline inline-block'>How To Have Your Cake and Eat It Too: The Way of The Chicken Man</Link>
+                        <Link className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm hover:!underline inline-block'>My Grandma’s 30-year-old Recipe</Link>
+                        <Link className='mt-4 lg:mt-[22px] text-black font-Merriweather leading-[160%] text-xsm hover:!underline inline-block'>What I learned about cooking from Ratatoulie</Link>
                     </div>
                 </div>
             </div>

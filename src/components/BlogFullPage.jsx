@@ -1,6 +1,7 @@
 import React from "react";
 import Full_blog_img from "../assets/webp/full_blog_img.webp";
 import George_Costanza from "../assets/webp/George_Costanza.webp";
+import { Link } from "react-router-dom";
 const BlogFullPage = () => {
     return (
         <div className="container xl:w-[1100px] px-3 sm:px-5 xl:px-0 mx-auto">
@@ -50,15 +51,28 @@ const BlogFullPage = () => {
                         <h2 className="text-black font-Merriweather font-bold text-[22px] lg:text-lg leading-[160%] mb-4">
                             In this article
                         </h2>
-                        <ol className="ps-6">
-                            <li className="!list-decimal text-table_color font-Merriweather text-sm md:text-xmd  leading-[160%] !underline">
-                                How to travel without spending a dime
+                        <ol className="list-decimal ms-[20px] md:ms-6">
+                            <li className="mb-[15px]  text-table_color font-Merriweather text-sm md:text-xmd  leading-[160%] ">
+                                <Link
+                                    className=" text-table_color font-Merriweather text-sm md:text-xmd  leading-[160%] !underline "
+
+                                >
+                                    How to travel without spending a dime
+                                </Link>
                             </li>
-                            <li className="!list-decimal text-table_color font-Merriweather text-sm md:text-xmd  leading-[160%] !underline py-4">
-                                Get the most out of your credit card reward points
+                            <li className="mb-[15px] text-table_color font-Merriweather text-sm md:text-xmd  leading-[160%] ">
+                                <Link
+                                    className=" text-table_color font-Merriweather text-sm md:text-xmd  leading-[160%] !underline ">
+                                    Get the most out of your credit card reward points
+                                </Link>
                             </li>
-                            <li className="!list-decimal text-table_color font-Merriweather text-sm md:text-xmd  leading-[160%] !underline">
-                                Why you don’t need more than 3 pieces of clothing
+                            <li className=" text-table_color font-Merriweather text-sm md:text-xmd  leading-[160%] ">
+                                <Link
+                                    className=" text-table_color font-Merriweather text-sm md:text-xmd  leading-[160%] !underline "
+
+                                >
+                                    Why you don’t need more than 3 pieces of clothing
+                                </Link>
                             </li>
                         </ol>
                     </div>
