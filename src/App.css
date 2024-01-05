@@ -1,3 +1,11 @@
+.visible-popup {
+    display: block;
+}
+
+.hidden-popup {
+    display: none;
+}
+
 @media (max-width:767.98px) {
     .nav_sm {
         position: absolute;
