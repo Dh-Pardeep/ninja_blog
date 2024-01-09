@@ -13,7 +13,7 @@ const BlogFullPage = () => {
                     <h2 className="text-black text-[34px] md:text-[40px] lg:text-2xl font-Merriweather leading-normal font-bold mt-4">
                         What I Learned About Life and Food Backpacking Around Greece
                     </h2>
-                    <p className="mb-5 text-gray_text font-Merriweather text-[12px] sm:text-xsm  leading-[160%]">
+                    <p className="  mb-5 text-gray_text font-Merriweather text-[12px] sm:text-xsm  leading-[160%]">
                         Aug 1, 2021 • 7 min read
                     </p>
                     <div className="mb-5 rounded-md overflow-hidden shadow-[0px_5px_10px_0px] shadow-[#00000080] ">
